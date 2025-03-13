@@ -1,19 +1,31 @@
-This directory includes a few sample datasets to get you started.
+# Real Data-Based Storage Predictor for Perishable Goods  
 
-*   `california_housing_data*.csv` is California housing data from the 1990 US
-    Census; more information is available at:
-    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
+## 📌 Overview  
+Managing perishable goods like **tomatoes, mangoes, and onions** is challenging due to fluctuating market prices and storage limitations. This project **analyzes real market, weather, and supply chain data** to help farmers and traders decide **whether to sell immediately or store for better profits**.  
 
-*   `mnist_*.csv` is a small sample of the
-    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
-    described at: http://yann.lecun.com/exdb/mnist/
+## 🚀 Features  
+- **📈 Market Price Forecasting** – Uses **Prophet, LSTM** to predict future prices.  
+- **🤖 Smart Storage Decisions** – Reinforcement learning (**Q-learning**) optimizes selling time.  
+- **🌦️ Weather & Supply Chain Analysis** – Considers **temperature, humidity, and transport costs**.  
+- **🔍 Real-Time Market Insights** – Web scraping for **agricultural news and trends**.  
+- **📊 Data Visualization** – Exports insights to **Tableau/Power BI** for better decision-making.  
 
-*   `anscombe.json` contains a copy of
-    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
-    was originally described in
+## 🛠️ Technologies Used  
+- **Python**  
+- **Machine Learning** (Prophet, LSTM, Q-learning)  
+- **SQL** for data storage  
+- **BeautifulSoup** for web scraping  
+- **Tableau/Power BI** for visualization  
 
-    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
-    Statistician. 27 (1): 17-21. JSTOR 2682899.
+## 📂 Dataset  
+The dataset includes:  
+- Market prices of perishable crops  
+- Weather conditions (temperature, humidity, rainfall)  
+- Supply chain & transportation costs  
+- Demand index and storage capacity  
 
-    and our copy was prepared by the
-    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
+## 🔧 Installation & Setup  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
