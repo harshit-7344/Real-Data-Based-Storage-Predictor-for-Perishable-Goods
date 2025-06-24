@@ -4,11 +4,13 @@ from sklearn.ensemble import HistGradientBoostingRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import plotly.express as px
 
+'''
 # Load data
-df = pd.read_csv('/content/2022_agriculture_dataset.csv', parse_dates=['Date'])
+# df = pd.read_csv('CSV FILE HERE', parse_dates=['Date'])
 df = df.sort_values(['Date', 'Crop Type', 'Market Location'])
 df['DayOfYear'] = df['Date'].dt.dayofyear
 df['Month'] = df['Date'].dt.month
+'''
 
 def test_model_performance(crop, location, test_days=30):
     try:
